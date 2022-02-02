@@ -1,0 +1,144 @@
+body {
+    padding: 0%;
+    margin: 0;
+}
+
+#content{
+    background-image: url(../img/background.jpg);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: fit-content;
+    min-height: 95.5vh;
+    min-width: 450px;
+    overflow: auto;
+}
+
+header {
+    background-color: #507299;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    padding: 0%;
+    z-index: 1;
+}
+
+#logo {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    display: inline;
+}
+
+#header-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    display: inline;
+    margin: 0;
+    position: relative;
+    bottom: 13px;
+    left: 3px;
+}
+
+.left-p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#left-text{
+    color: white;
+    margin-top: 80px;
+    margin-left: -30px;
+}
+
+ul{
+    line-height: 1.3em;
+}
+
+#left-block {
+    width: 15%;
+    background-color: #6788AE;
+    min-width: 165px;
+}
+
+.cat{
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#cat1{
+    height: 330px;
+}
+
+#cat2{
+    height: 360px;
+}
+
+#cat3{
+    height: 380px;
+}
+
+#cat4{
+    height: 220px;
+    width: 290px;
+}
+
+#cat5{
+    height: 240px;
+}
+
+#cat6{
+    height: 290px;
+    width: 290px;
+}
+
+#cat-holder{
+    background-color: white;
+    width: 68%;
+    margin-left: 1%;
+    margin-top: 70px;
+    height: fit-content;
+    display: flex;
+    flex-flow:wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+
+#fixed-cat {
+    position: fixed;
+    height: 250px;
+    left: 87%;
+    top: 70px;
+}
+
+#footer-cat {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    z-index: 1;
+}
+
+#footer-text{
+    margin-right: 150px;
+    margin-left: auto;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #ABB2BC;
+}
+
+footer {
+    height: 26px;
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    /* display: flex;
+    align-items: center; */
+    min-width: 450px;
+}
